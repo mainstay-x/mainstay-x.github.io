@@ -1,0 +1,24 @@
+/* MainStay Sans — fonte própria da MainStay-x */
+@font-face {
+  font-family: 'MainStay Sans';
+  src: url('MainStaySans-Light.woff') format('woff'), url('MainStaySans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'MainStay Sans';
+  src: url('MainStaySans-Regular.woff') format('woff'), url('MainStaySans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'MainStay Sans';
+  src: url('MainStaySans-Bold.woff') format('woff'), url('MainStaySans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* uso: body { font-family: 'MainStay Sans', system-ui, sans-serif; } */
